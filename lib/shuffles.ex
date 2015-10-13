@@ -1,4 +1,4 @@
-defmodule Shuffles do
+defmodule PokerShuffle.Shuffles do
   @suits ["s", "c", "h", "d"]
   @ranks ["2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"]
   @deck for rank <- @ranks, suit <- @suits, do: rank <> suit
